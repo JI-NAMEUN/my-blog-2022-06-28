@@ -1,16 +1,18 @@
-import { Link } from "gatsby";
 import React from "react";
-import Head from "../../my-blog-2022-06-28/src/components/head";
+import Layout from "../../my-blog-2022-06-28/src/components/layout";
+
 
 function TestSpacePage() {
   return (
     <main>
-      <title>테스트 스페이스</title>
+    <Layout>
+        <title>테스트 스페이스</title>
+    
+        <h1> 테스트 스페이스 페이지 입니다.</h1>
+    </Layout>
+           
 
-      <Head />
-
-      <h1>테스트 스페이스 페이지 입니다.</h1>
-    </main>
+</main>
   );
 }
 export default TestSpacePage;

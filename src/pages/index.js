@@ -1,23 +1,23 @@
-import { Link } from "gatsby";
 import React from "react";
-
+import Layout from "../../my-blog-2022-06-28/src/components/layout";
 
 // markup
 const IndexPage = () => {
   return(
-    <main>
-      <title>Home Page</title>
-      <div style={{ display: "flex", gap: 20}}>
-      <Link to="/"> 홈</Link>
-            <Link to="/about"> 어바웃</Link>
-            <Link to="/test"> 테스트</Link>
-            <Link to="/test-space"> 테스트-스페이스</Link>             
-            </div>
-                   
-      <h1> Home Page </h1>
+   <main>
+      <Layout>
+      <title>홈</title>
+      
+      <h1> 홈페이지 </h1>
+      </Layout>
+              
 
-      </main>
+    </main>
+                   
+    
+
+     
   )
-}
+};
 
 export default IndexPage;
