@@ -5,19 +5,14 @@ import Layout from "../../my-blog-2022-06-28/src/components/layout";
 const IndexPage = () => {
   return(
    <main>
-      <Layout>
-      <title>홈</title>
-      
-      <h1> 홈페이지 </h1>
-      </Layout>
-              
+      <Layout pageTitle="Home Page">
+      <p>I'm making this by following the Gatsby Tutorial.</p>
+    </Layout>
 
     </main>
                    
-    
-
      
-  )
+  );
 };
 
 export default IndexPage;
